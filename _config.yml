@@ -100,9 +100,10 @@ content:
       - layout: left
         # title: WEB3 서비스를 연동 편의성을 위한 대시보드 개발
         title: 워크스페이스 개발
+        sub_title: 2023.05 ~
+        caption: <a href="https://workspace.wepin.io" target="_blank" class="link">워크스페이스 링크</a>
         link: https://www.wepin.io/ko/workspace
         link_text: 워크스페이스 가이드 링크
-        caption: 2023.05 ~
         description: | # this will include new lines to allow paragraphs
           - 대시보드, 네트워크 탭 프론트 개발 
           - 사용자 통계 그래프를 위해 Graph QL 적용 
@@ -112,7 +113,7 @@ content:
       - layout: left
         # title: 외부 기업 연동 위젯 SDK
         title: 위젯 SDK 개발 및 유지보수
-        caption: 2023.02 ~
+        sub_title: 2023.02 ~
         link: https://docs.wepin.io
         link_text: 위젯 연동 가이드 링크
         quote: >
@@ -126,7 +127,8 @@ content:
       - layout: left
         # title: NFT, 코인 에어드롭 마케팅 서비스
         title: NFT 허브링크, Coin 드롭링크 개발 및 유지보수
-        caption: 2022.11 ~ 2023.01
+        sub_title: 2022.11 ~ 2023.01
+        caption: <a href="https://app.wepin.io/hublink/participate?promotionId=rhUNOfDxNx1&_gl=1*2qhz2e*_ga*MTkzNzk3NjU1MC4xNzA3NDQ5MjIz*_ga_WQXCJVJ7JR*MTcyNjEzODA3Ni43LjEuMTcyNjEzOTY1OC4xLjAuMA.." target="_blank" class="link">NFT 에어드롭</a>
         link: https://www.wepin.io/ko/droplink
         link_text: 에어드롭 마케팅 서비스 가이드 링크
         quote: >
@@ -138,7 +140,7 @@ content:
       - layout: left
         # title: WEB3 지갑
         title: WEB3 Wepin 지갑 개발 및 유지보수
-        caption: 2022.08 ~
+        sub_title: 2022.08 ~
         link: https://app.wepin.io
         link_text: WEB3 지갑 링크
         quote: >
@@ -152,19 +154,20 @@ content:
 
       - layout: left
         title: 디센트
-        caption: 2021.09 ~ 2022.07
+        sub_title: 2021.09 ~ 2022.07
+        caption: <a href="https://userguide.dcentwallet.com/v/kr/coin-send-receive/nft" target="_blank" class="link">디센트 가이드</a>
         link: https://play.google.com/store/apps/details?id=com.kr.iotrust.dcent.wallet&pcampaignid=web_share
-        link_text: 디센트 가이드 링크
+        link_text: 디센트 앱 링크
         quote: >
          
         description: | # this will include new lines to allow paragraphs
           - Collection, swap, Exchange, Staking 탭 개발 및 유지보수
           - NFT IPFS GateWay 적용으로 NFT 보여주는 시간 개선
           - Swap, Exchange 전환 로딩 시간을 줄이기 위해 디자인 수정 
-          - NFT 로딩 대기시간을 줄이기 위해 스캠(스팸메세지) 숨김 API 적용
+          - NFT 로딩 대기시간을 줄이기 위해 스캠(스팸NFT) 숨김 API 적용
       - layout: left
         title: 디센트 스택스 스택킹
-        caption: 2021.07 ~ 2021.11
+        sub_title: 2021.07 ~ 2021.11
         link: https://userguide.dcentwallet.com/v/kr/native-service/stacks-stacking-delegation-service
         link_text: 스택킹 가이드 링크
         quote: >
