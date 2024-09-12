@@ -1,0 +1,195 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 안녕하세요, 프론트엔드 개발자 박태현입니다.
+title: 4년차 front-end developer
+email: wsdsdssa@gmail.com
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+# github_username:  sproogen
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  블록체인 관련 회사에서 3년간 Vue.js와 TypeScript 기반으로 웹 지갑과 콜드 월렛을 개발해왔으며, 퍼블리싱 작업에서도 섬세함을 중시합니다. Web3 API를 활용해 보안이 중요한 환경에서 안정적이고 직관적인 사용자 경험을 제공하는 데 집중해 왔습니다.
+  저는 픽셀 단위의 정밀함을 요구하는 퍼블리싱과 사용자 경험을 최적화하는 UI/UX 구현에 강점을 가지고 있습니다. 앞으로도 세심한 디테일과 사용자 중심의 접근을 통해 더 나은 웹 서비스를 제공하고자 합니다.
+
+  skilled: <mark>HTML5, CSS3, JavaScript, TypeScript, Vue 2, Vue 3, Vuex, Pinia, Figma, Sourcetree</mark>
+
+
+content:
+  - title:  <b>Experience<b>  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: IOTRUST
+        link: https://career.iotrust.kr/
+        link_text: iotrust 회사 소개 링크
+        sub_title: 프론트엔드 개발자
+        caption: 2021.07 ~
+        description: | # this will include new lines to allow paragraphs
+            블록체인 하드웨어/소프트웨어 스타트업 (총 인원 38~45, 개발팀 18~20명)<br/> 
+            - WEB3 지갑 프론트엔드 개발
+            - WEB3 지갑 javscript SDK, web view 프론트엔드 개발
+            - WEB3 지갑 기업용 Wockspace 프론트엔드 개발
+            - 콜드월렛 Stacks 네트워크 스테이킹 서비스 (하이브리드 웹뷰)
+            - 콜드월렛 NFT 콜렉션 지갑 개발 (하이브리드 웹뷰)
+    
+  - title: 
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 언라이크
+        sub_title: 프론트엔드 개발자
+        caption: 2020.05 ~ 2021.02
+        description: | # this will include new lines to allow paragraphs
+            웹 에이전시 (총 인원 4, 개발팀 3명)
+            - 돌돌 물류배송 회사 메인 페이지
+            - 송영데이 고객 픽업 체크 서비스
+            - 프리랜서 매칭 서비스
+  
+  - title: <b>PROJECTS<b> # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        # title: WEB3 서비스를 연동 편의성을 위한 대시보드 개발
+        title: 디자인 컴포넌트 개발
+        caption: 2022.05 ~
+        description: | # this will include new lines to allow paragraphs
+          - Storybook 에 크로마틱 UI 테스트 툴 적용
+          - 전체 프로젝트에 테마를 적용할수 있도록 color, font-face 컴포넌트 화 진행
+          - Props 드릴링의 문제로 slot 의 디자인 컴포넌트를 요청
+
+      - layout: left
+        # title: WEB3 서비스를 연동 편의성을 위한 대시보드 개발
+        title: 워크스페이스 개발
+        link: https://www.wepin.io/ko/workspace
+        link_text: 워크스페이스 가이드 링크
+        caption: 2023.05 ~
+        description: | # this will include new lines to allow paragraphs
+          - 대시보드, 네트워크 탭 프론트 개발 
+          - 사용자 통계 그래프를 위해 Graph QL 적용 
+          - 연동되는 앱 테마별 구현
+          - NFT, Coin 등 자산 버츄얼 스크롤 등록으로 로딩 속도 향상 
+
+      - layout: left
+        # title: 외부 기업 연동 위젯 SDK
+        title: 위젯 SDK 개발 및 유지보수
+        caption: 2023.02 ~
+        link: https://docs.wepin.io
+        link_text: 위젯 연동 가이드 링크
+        quote: >
+          기존 web3 앱/웹 서비스들에게 위젯지갑을 연동시켜주는 서비스
+        description: | # this will include new lines to allow paragraphs
+          - 메인 페이지, NFT, Coin 보내기 및 테마 적용 개발
+          - 메인 페이지에 보여주는 NFT, Coin API 요청을 분리하여 로딩속도 향상
+          - 각종 페이지 UI/UX 디자인 개선
+          - NFT IPFS GateWay 적용으로 NFT 보여주는 시간 개선
+
+      - layout: left
+        # title: NFT, 코인 에어드롭 마케팅 서비스
+        title: NFT 허브링크, Coin 드롭링크 개발 및 유지보수
+        caption: 2022.11 ~ 2023.01
+        link: https://www.wepin.io/ko/droplink
+        link_text: 에어드롭 마케팅 서비스 가이드 링크
+        quote: >
+          사용자 이메일로 NFT 와 토큰 에어드롭을 제공해 외부 업체의 앱 설치 및 서비스 가입유도가 가능한 서비스
+        description: | # this will include new lines to allow paragraphs
+          - NFT 에어드롭 플로우 개발
+          - Coin 에어드롭 플로우 개발 
+
+      - layout: left
+        # title: WEB3 지갑
+        title: WEB3 Wepin 지갑 개발 및 유지보수
+        caption: 2022.08 ~
+        link: https://app.wepin.io
+        link_text: WEB3 지갑 링크
+        quote: >
+          다양한 네트워크와 다양한 외부 서비스들의 에어드롭, 자산을 보유할수 있는 WEB3 지갑 서비스
+        description: | # this will include new lines to allow paragraphs
+          - 대시보드 탭, NFT, 내 계정, 로그인 개발
+          - firebase 를 통한 Provider 로그인 추가
+          - naver, discode 등의 Oauth 추가
+          - 내 계정, NFT Layout 설정 개발
+          - 대시보드 탭에서 요청하는 API 대기 시간을 줄이기 위해 미들웨어 생성 
+
+      - layout: left
+        title: 디센트
+        caption: 2021.09 ~ 2022.07
+        link: https://play.google.com/store/apps/details?id=com.kr.iotrust.dcent.wallet&pcampaignid=web_share
+        link_text: 디센트 가이드 링크
+        quote: >
+         
+        description: | # this will include new lines to allow paragraphs
+          - Collection, swap, Exchange, Staking 탭 개발 및 유지보수
+          - NFT IPFS GateWay 적용으로 NFT 보여주는 시간 개선
+          - Swap, Exchange 전환 로딩 시간을 줄이기 위해 디자인 수정 
+          - NFT 로딩 대기시간을 줄이기 위해 스캠(스팸메세지) 숨김 API 적용
+      - layout: left
+        title: 디센트 스택스 스택킹
+        caption: 2021.07 ~ 2021.11
+        link: https://userguide.dcentwallet.com/v/kr/native-service/stacks-stacking-delegation-service
+        link_text: 스택킹 가이드 링크
+        quote: >
+      
+        description: | # this will include new lines to allow paragraphs
+          - 스텍스 네트워크 스택킹 개발
+ 
+  - title:  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: 
+        # link_text: Project Website
+        description: | # this will include new lines to allow paragraphs
+          우수한 사용자 인터페이스와 매력적인 애니메이션 구현에 열정을 가지고 있습니다. 최신 기술이 항상 가장 적절하다고 생각하지 않으며, 상황에 따라 적합한 기술 선택이 필요하다고 믿습니다. 회사나 팀의 절차와 문화를 개선하거나 변경하려는 노력을 기울입니다. 직위나 역할에 상관없이 적극적으로 의견을 제시하며, 겸손함을 유지하려고 합니다. 커뮤니케이션은 많은 것이 바람직하다고 생각합니다. 
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
