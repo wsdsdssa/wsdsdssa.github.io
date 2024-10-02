@@ -51,8 +51,15 @@ about_content: | # this will include new lines to allow paragraphs
   블록체인 관련 회사에서 3년간 Vue.js와 TypeScript 기반으로 웹 지갑과 콜드 월렛을 개발해왔으며, 퍼블리싱 작업에서도 섬세함을 중시합니다. Web3 API를 활용해 보안이 중요한 환경에서 안정적이고 직관적인 사용자 경험을 제공하는 데 집중해 왔습니다.
   저는 픽셀 단위의 정밀함을 요구하는 퍼블리싱과 사용자 경험을 최적화하는 UI/UX 구현에 강점을 가지고 있습니다. 앞으로도 세심한 디테일과 사용자 중심의 접근을 통해 더 나은 웹 서비스를 제공하고자 합니다.
 
-  skilled: <mark>HTML5, CSS3, JavaScript, TypeScript, Vue 2, Vue 3, Vuex, Pinia, Figma, Sourcetree</mark>
+  skilled: <mark>HTML5, CSS3, JavaScript, TypeScript, Vue 2, Vue 3, Vuex, Jest, Pinia, Figma, git, github, Sourcetree</mark>
 
+  현재 상용중인 사이트: 
+  - [파트너 회사용 대시보드 링크](https://workspace.wepin.io/login)
+  - [개인용 WEB3 지갑 링크](https://app.wepin.io/)
+  - [앱 하이브리드 지갑 링크](https://play.google.com/store/apps/details?id=com.kr.iotrust.dcent.wallet&pcampaignid=web_share)
+  - [스택킹 가이드 링크](https://userguide.dcentwallet.com/v/kr/native-service/stacks-stacking-delegation-service)
+  - [에어드롭 이벤트 서비스 가이드 링크](https://www.wepin.io/ko/droplink)
+  - [SDK 위젯 가이드 링크](https://docs.wepin.io)
 
 content:
   - title:  <b>Experience<b>  # Title for the section
@@ -63,7 +70,7 @@ content:
         link: https://career.iotrust.kr/
         link_text: iotrust 회사 소개 링크
         sub_title: 프론트엔드 개발자
-        caption: 2021.07 ~
+        caption: 2021.07 ~ 2024.09.30
         description: | # this will include new lines to allow paragraphs
             블록체인 하드웨어/소프트웨어 스타트업 (총 인원 38~45, 개발팀 18~20명)<br/> 
             - WEB3 지갑 프론트엔드 개발
@@ -91,7 +98,6 @@ content:
       - layout: left
         # title: WEB3 서비스를 연동 편의성을 위한 대시보드 개발
         title: 디자인 컴포넌트 개발
-        caption: 2022.05 ~
         description: | # this will include new lines to allow paragraphs
           - Storybook 에 크로마틱 UI 테스트 툴 적용
           - 전체 프로젝트에 테마를 적용할수 있도록 color, font-face 컴포넌트 화 진행
@@ -100,30 +106,31 @@ content:
       - layout: left
         # title: WEB3 서비스를 연동 편의성을 위한 대시보드 개발
         title: 워크스페이스 개발
-        sub_title: 2023.05 ~
+        sub_title: 2023.08 ~ 개발 및 유지보수 
         caption: <a href="https://workspace.wepin.io" target="_blank" class="link">워크스페이스 링크</a>
         link: https://www.wepin.io/ko/workspace
         link_text: 워크스페이스 가이드 링크
         description: | # this will include new lines to allow paragraphs
+          프론트 엔드 3명, 백엔드 개발자와 협업으로 개발 초기 단계부터 시작 
           - 대시보드, 네트워크 탭 프론트 개발 
           - 사용자 통계 그래프를 위해 Graph QL 적용 
           - 연동되는 앱 테마별 구현
-          - NFT, Coin 등 자산 버츄얼 스크롤 등록으로 로딩 속도 향상 
+          - NFT, Coin 등 자산 버츄얼 스크롤 적용으로 로딩 속도 향상 
 
       - layout: left
         # title: 외부 기업 연동 위젯 SDK
         title: 위젯 SDK 개발 및 유지보수
-        sub_title: 2023.02 ~
+        sub_title: 2023.02 ~ 개발 및 유지보수 
         link: https://docs.wepin.io
         link_text: 위젯 연동 가이드 링크
         quote: >
           기존 web3 앱/웹 서비스들에게 위젯지갑을 연동시켜주는 서비스
         description: | # this will include new lines to allow paragraphs
+          IOS, 안드로이드, 백엔드, 블록체인 개발자와 협업 위젯의 UI/UX 및 기능을 위주로 작업
           - 메인 페이지, NFT, Coin 보내기 및 테마 적용 개발
           - 메인 페이지에 보여주는 NFT, Coin API 요청을 분리하여 로딩속도 향상
-          - 각종 페이지 UI/UX 디자인 개선
           - NFT IPFS GateWay 적용으로 NFT 보여주는 시간 개선
-
+          - Jest 단위 테스트, 시나리오 테스트 작업 
       - layout: left
         # title: NFT, 코인 에어드롭 마케팅 서비스
         title: NFT 허브링크, Coin 드롭링크 개발 및 유지보수
@@ -140,12 +147,13 @@ content:
       - layout: left
         # title: WEB3 지갑
         title: WEB3 Wepin 지갑 개발 및 유지보수
-        sub_title: 2022.08 ~
+        sub_title: 2022.08 ~ 개발 및 유지보수 
         link: https://app.wepin.io
         link_text: WEB3 지갑 링크
         quote: >
           다양한 네트워크와 다양한 외부 서비스들의 에어드롭, 자산을 보유할수 있는 WEB3 지갑 서비스
         description: | # this will include new lines to allow paragraphs
+          백엔드 개발자와 협업하여 개발 초기부터 리드로 진행 
           - 대시보드 탭, NFT, 내 계정, 로그인 개발
           - firebase 를 통한 Provider 로그인 추가
           - naver, discode 등의 Oauth 추가
@@ -161,6 +169,7 @@ content:
         quote: >
          
         description: | # this will include new lines to allow paragraphs
+          프론트엔드, IOS, 안드로이드, 블록체인 개발자와 협업하여 진행
           - Collection, swap, Exchange, Staking 탭 개발 및 유지보수
           - NFT IPFS GateWay 적용으로 NFT 보여주는 시간 개선
           - Swap, Exchange 전환 로딩 시간을 줄이기 위해 디자인 수정 
