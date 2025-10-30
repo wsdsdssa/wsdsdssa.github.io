@@ -58,21 +58,6 @@ about_content: | # this will include new lines to allow paragraphs
 
   skilled: <mark>TypeScript, Node.js Vue 2, Vue 3, Nuxt, React, Vuex, Jest, Pinia, HTML5, CSS3, TailwindCSS, Figma, git, github, Sourcetree</mark>
 
-  현재 상용중인 사이트:
-  <br/>
-  <h3>메이더</h3>
-   - [메이더 홈페이지 링크](https://www.maderr.com/)
-   - [오븐링크](https://ovenlink.kr/)
-   - [모아모아](https://moremore.market/collaboration)
-   <br/>
-  <h3>아이오트러스트</h3> <br/>
-   - [파트너 회사용 대시보드 링크](https://workspace.wepin.io/login)
-   - [개인용 WEB3 지갑 링크](https://app.wepin.io/)
-   - [앱 하이브리드 지갑 링크](https://play.google.com/store/apps/details?id=com.kr.iotrust.dcent.wallet&pcampaignid=web_share)
-   - [스택킹 가이드 링크](https://userguide.dcentwallet.com/v/kr/native-service/stacks-stacking-delegation-service)
-   - [에어드롭 이벤트 서비스 가이드 링크](https://www.wepin.io/ko/droplink)
-   - [SDK 위젯 가이드 링크](https://docs.wepin.io)
-
 content:
   - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트 (2024.12 ~ 현재)</b>
     layout: list
@@ -86,7 +71,7 @@ content:
 
 
         description: |
-          - [🍞 오븐링크(Ovenlink) — 주문·배송 관리 모듈 단독 개발 및 구축](https://www.notion.so/Ovenlink-29c9a2e897f7803dbcfafdc7d5f14f75?pvs=21)<br/>
+          - [🍞 오븐링크(Ovenlink) — 주문·배송 관리 모듈 단독 개발 및 구축](https://brick-wound-d32.notion.site/Ovenlink-29c9a2e897f7803dbcfafdc7d5f14f75)<br/>
           → 디저트 인플루언서 전용 예약·픽업 커머스, 관리자용 배송 관리 시스템 구축
 
       - layout: left
@@ -98,7 +83,7 @@ content:
 
 
         description: |
-          - [🎨 모아모아(MoreMoreMarket) — 그림·문구 작가 전용 콜라보 커머스 플랫폼](https://www.notion.so/MoreMoreMarket-29c9a2e897f780dea2d3f2fcff41ec67?pvs=21)<br/>
+          - [🎨 모아모아(MoreMoreMarket) — 그림·문구 작가 전용 콜라보 커머스 플랫폼](https://brick-wound-d32.notion.site/MoreMoreMarket-29c9a2e897f780dea2d3f2fcff41ec67)<br/>
           → 공동 장바구니·개별 결제 구조 설계, 작가 콜라보 마켓 시스템 단독 개발
 
       - layout: left
@@ -110,8 +95,20 @@ content:
 
 
         description: |
-          - [💻 메이더(Maderr) 호스팅 서비스 유지보수 및 자동 배포 구축](https://www.notion.so/Maderr-Hosting-cdd984855b7f42168388c3bbf501b854?pvs=21)<br/>
+          - [💻 메이더(Maderr) 호스팅 서비스 유지보수 및 자동 배포 구축](https://brick-wound-d32.notion.site/Maderr-Hosting-cdd984855b7f42168388c3bbf501b854)<br/>
           → Functions 기반 서버리스 API, 버전 태그 자동 배포 파이프라인 완성
+
+      - layout: left
+        title: 메이더 관리자 대시보드 단독 구축
+        sub_title: 2024.12 ~ 현재
+        caption: <a href="https://www.maderr.com/" target="_blank" class="link">오븐링크 사이트</a>
+        quote: >
+          단순한 통계 페이지를 넘어서, 실제 “운영팀과 입점사 간의 업무 효율”을 높이는 **운영형 백오피스 시스템**을 단독으로 설계하고 구현했습니다.
+
+
+        description: |
+          - [메이더 관리자 대시보드](https://brick-wound-d32.notion.site/b9f84e08cf6348e389613a35a40f180a)<br/>
+          → 디저트 인플루언서 전용 예약·픽업 커머스, 관리자용 배송 관리 시스템 구축
 
       - layout: left
         title: 프론트엔드 개발 환경 최적화 및 품질 개선
@@ -121,7 +118,7 @@ content:
 
 
         description: |
-          - [🧩 프론트엔드 개발 환경 최적화 및 품질 개선 주도](https://www.notion.so/29c9a2e897f7808f98d9fe3e3f7cd5e0?pvs=21)<br/>
+          - [🧩 프론트엔드 개발 환경 최적화 및 품질 개선 주도](https://brick-wound-d32.notion.site/29c9a2e897f7808f98d9fe3e3f7cd5e0)<br/>
           → Cursor AI 도입 / Atomic UI 패키지화 / GitHub Actions 자동 배포 완성
 
   - title: <b style="color:#4CAF50;">PROJECTS - 아이오트러스트 (블록체인) 2021.07 ~ 2024.09.30</b> # Title for the section
