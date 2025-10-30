@@ -73,6 +73,7 @@ about_content: | # this will include new lines to allow paragraphs
    - [에어드롭 이벤트 서비스 가이드 링크](https://www.wepin.io/ko/droplink)
    - [SDK 위젯 가이드 링크](https://docs.wepin.io)
 
+content:
   - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트 (2024.12 ~ 현재)</b>
     layout: list
     content:
@@ -228,11 +229,11 @@ about_content: | # this will include new lines to allow paragraphs
       - layout: left
         title: 디자인 컴포넌트 개발
         description: | # this will include new lines to allow paragraphs
-            웹 에이전시 (총 인원 4, 개발팀 3명)
+          웹 에이전시 (총 인원 4, 개발팀 3명)
           - 돌돌 물류배송 회사 메인 페이지
           - 송영데이 고객 픽업 체크 서비스
           - 프리랜서 매칭 서비스
-          
+
   - title: # Title for the section
     layout: list # Type of content section (list/text)
     content:
