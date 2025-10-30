@@ -73,36 +73,7 @@ about_content: | # this will include new lines to allow paragraphs
    - [에어드롭 이벤트 서비스 가이드 링크](https://www.wepin.io/ko/droplink)
    - [SDK 위젯 가이드 링크](https://docs.wepin.io)
 
-content:
-  - title: <b style="color:#FF9800;">Experience</b> # Title for the section
-    layout: list
-    content:
-      - layout: left
-        title: 히릿소프트 - 호스팅 서비스
-        link: https://www.maderr.com/
-        link_text: 호스팅 홈페이지 링크
-        sub_title: 프론트엔드/백엔드 개발자
-        caption: 2024.12 ~ 현재
-        description: | # this will include new lines to allow paragraphs
-          **단일 코드(Core Framework) 기반 멀티 브랜드 커머스 구축 및 자동화 고도화**
-
-          - [🍞 오븐링크(Ovenlink) — 주문·배송 관리 모듈 단독 개발 및 구축](https://www.notion.so/Ovenlink-29c9a2e897f7803dbcfafdc7d5f14f75?pvs=21)<br/>
-            → 디저트 인플루언서 전용 예약·픽업 커머스, 관리자용 배송 관리 시스템 구축  
-          - [🎨 모아모아(MoreMoreMarket) — 그림·문구 작가 전용 콜라보 커머스 플랫폼](https://www.notion.so/MoreMoreMarket-29c9a2e897f780dea2d3f2fcff41ec67?pvs=21)<br/>
-            → 공동 장바구니·개별 결제 구조 설계, 작가 콜라보 마켓 시스템 단독 개발  
-          - [💻 메이더(Maderr) 호스팅 서비스 유지보수 및 자동 배포 구축](https://www.notion.so/Maderr-Hosting-cdd984855b7f42168388c3bbf501b854?pvs=21)<br/>
-            → Functions 기반 서버리스 API, 버전 태그 자동 배포 파이프라인 완성  
-          - [🧩 프론트엔드 개발 환경 최적화 및 품질 개선 주도](https://www.notion.so/29c9a2e897f7808f98d9fe3e3f7cd5e0?pvs=21)<br/>
-            → Cursor AI 도입 / Atomic UI 패키지화 / GitHub Actions 자동 배포 완성  
-
-          **성과**
-          - 신규 브랜드 런칭 기간 **2개월 → 2주 단축**
-          - 코드 재사용률 **60%↑**, 수동 배포 0건
-          - 이미지 전송량 **70% 절감**, LCP 2.5s 달성
-          - 운영 로드/장애 대응 속도 **40% 개선**
-
-          **기술 스택:** Vue 3, Nuxt 3, TypeScript, Firebase (Auth/Firestore/Functions/Storage), Cloud Run, Node.js, TailwindCSS, GitHub Actions, Cursor AI, SEO Optimization
-
+content: - title: <b style="color:#FF9800;">Experience</b> # Title for the section layout: list # Type of content section (list/text) content: - layout: left title: 히릿소프트 - 호스팅 서비스 link: https://www.maderr.com/ link_text: 호스팅 홈페이지 링크 sub_title: 프론트엔드/백엔드 개발자 caption: 2024.12 ~ 현재 description: | # this will include new lines to allow paragraphs - ovenlink.kr 주문·배송 관리 모듈 단독 개발 및 구축 → 디저트 인플루언서 전용 커머스 인터페이스 - moremore.kr 프론트엔드 단독 개발 → 작가 인플루언서 전용 커머스 인터페이스 - 관리자 대시보드 페이지 단독 구축 - 호스팅 서비스 사이트 유지보수 및 신규 기능 기획/배포 자동화 구축 - SEO 구조 개선 및 Lighthouse 최적화 → 검색 노출 향상 - component 단위 테스트 주도 적용 스킬: Vue 3, Nuxt, TypeScript, Firebase, Cloud Run, Node.js, TailwindCSS, SEO Optimization<br/> - title: layout: list # Type of content section (list/text) content: - layout: left title: IOTRUST - 블록체인 하드웨어/소프트웨어 스타트업 link: https://career.iotrust.kr/ link_text: iotrust 회사 소개 링크 sub_title: 프론트엔드 개발자 caption: 2021.07 ~ 2024.09.30 description: | # this will include new lines to allow paragraphs 블록체인 하드웨어/소프트웨어 스타트업 (총 인원 38~45, 개발팀 18~20명)<br/> - 기업용 지갑 Workspace UI 프레임워크 설계 및 성능 최적화 프론트엔드 개발 - 자바스크립트 SDK 개발 → 외부 dApp 연동 환경 제공 / 프론트엔드 개발 - WEB3 지갑 기업용 Wockspace 프론트엔드 개발 - 콜드월렛 Stacks 네트워크 스테이킹 서비스 (하이브리드 웹뷰) - 하이브리드 앱 환경에서 스테이킹·NFT 기능 통합 - 개발팀 내 코드베이스 표준화 주도 (ESLint / CI 자동화 적용) - UI 테스트 툴 Chromatic 주도 적용 Vue2 ~ 3, React, TypeScript, Node.js,Web3.js, Storybook, Chromatic, Hybrid WebView, GitHub Actions<br/> - title: layout: list # Type of content section (list/text) content: - layout: left title: 언라이크 - 웹 에이전시 sub_title: 프론트엔드 개발자 caption: 2020.05 ~ 2021.02 description: | # this will include new lines to allow paragraphs 웹 에이전시 (총 인원 4, 개발팀 3명) - 돌돌 물류배송 회사 메인 페이지 - 송영데이 고객 픽업 체크 서비스 - 프리랜서 매칭 서비스
 
   - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트</b>
     layout: list
@@ -111,55 +82,40 @@ content:
         title: 오븐링크(Ovenlink) 개발
         sub_title: 2025.05 ~ 현재
         caption: <a href="https://www.ovenlink.kr/" target="_blank" class="link">오븐링크 사이트</a>
-        link: https://www.notion.so/Ovenlink-29c9a2e897f7803dbcfafdc7d5f14f75?pvs=21
-        link_text: 노션 프로젝트 상세 보기
         quote: >
           디저트 인플루언서를 위한 **예약·픽업·배송 특화** 커머스 플랫폼
         description: |
-          - Firebase 기반 **프론트/백엔드 풀스택 단독 개발**
-          - 픽업 스케줄·재고·주문 상태 자동 동기화
-          - Functions 기반 결제·정산 트랜잭션 구현
-          - 반응형 UI/UX 개선 및 SEO 구조 정비  
-          - **성과:** 주문 처리 효율 2배, 관리자 로딩 속도 40% 단축, Lighthouse 90+ 달성  
+           - [🍞 오븐링크(Ovenlink) — 주문·배송 관리 모듈 단독 개발 및 구축](https://www.notion.so/Ovenlink-29c9a2e897f7803dbcfafdc7d5f14f75?pvs=21)<br/>
+           → 디저트 인플루언서 전용 예약·픽업 커머스, 관리자용 배송 관리 시스템 구축    
 
       - layout: left
         title: 모아모아(MoreMore) 개발
         sub_title: 2025.03 ~ 현재
         caption: <a href="https://www.moremore.market/collaboration" target="_blank" class="link">모아모아 사이트</a>
-        link: https://www.notion.so/MoreMoreMarket-29c9a2e897f780dea2d3f2fcff41ec67?pvs=21
-        link_text: 노션 프로젝트 상세 보기
         quote: >
           **하나의 장바구니·개별 결제** 구조의 작가 콜라보 플랫폼
         description: |
-          - 협업(콜라보) 생성/참여/운영 인터페이스 단독 개발  
-          - 여러 작가 상품을 하나의 장바구니로 관리, 결제 시 각자 쇼핑몰로 분산 이동  
-          - 모바일/웹 4→3→2 컬럼 반응형 그리드 및 WebP 최적화  
-          - **성과:** 구축 리드타임 2개월 → 2주, 작가 공동 판매율 +40%  
+            - [🎨 모아모아(MoreMoreMarket) — 그림·문구 작가 전용 콜라보 커머스 플랫폼](https://www.notion.so/MoreMoreMarket-29c9a2e897f780dea2d3f2fcff41ec67?pvs=21)<br/>
+            → 공동 장바구니·개별 결제 구조 설계, 작가 콜라보 마켓 시스템 단독 개발  
 
       - layout: left
         title: 메이더(Maderr) 호스팅 서비스 유지보수
         sub_title: 2024.12 ~ 현재
-        link: https://www.notion.so/Maderr-Hosting-cdd984855b7f42168388c3bbf501b854?pvs=21
-        link_text: 노션 프로젝트 상세 보기
+        caption: <a href="https://www.maderr.com/" target="_blank" class="link">메이더 사이트</a>
         quote: >
           **호스팅 운영 자동화 및 백오피스 고도화**
         description: |
-          - 상품/주문/리뷰/정산 등 도메인별 기능 리팩토링 및 성능 개선  
-          - 버전 태그 기반 자동 배포 시스템 구축  
-          - Cloud Run + Firestore 최적화로 운영 안정성 강화  
+          - [💻 메이더(Maderr) 호스팅 서비스 유지보수 및 자동 배포 구축](https://www.notion.so/Maderr-Hosting-cdd984855b7f42168388c3bbf501b854?pvs=21)<br/>
+          → Functions 기반 서버리스 API, 버전 태그 자동 배포 파이프라인 완성  
 
       - layout: left
         title: 프론트엔드 개발 환경 최적화 및 품질 개선
         sub_title: 2025.02 ~ 현재
-        link: https://www.notion.so/29c9a2e897f7808f98d9fe3e3f7cd5e0?pvs=21
-        link_text: 노션 프로젝트 상세 보기
         quote: >
           개발 효율성과 품질을 동시에 개선한 내부 기술 혁신 프로젝트
         description: |
-          - Cursor AI 코드 리뷰 및 리팩토링 자동화  
-          - Atomic 단위 UI 컴포넌트 공통 패키지화 (`@hititsoft/ui`)  
-          - GitHub Actions 기반 CI/CD 완전 자동화  
-          - 폰트 로컬화 + CDN 제거 → 로드 속도 60% 개선  
+           - [🧩 프론트엔드 개발 환경 최적화 및 품질 개선 주도](https://www.notion.so/29c9a2e897f7808f98d9fe3e3f7cd5e0?pvs=21)<br/>
+           → Cursor AI 도입 / Atomic UI 패키지화 / GitHub Actions 자동 배포 완성  
 
 
   - title: <b style="color:#4CAF50;">PROJECTS - 아이오트러스트 (블록체인)</b> # Title for the section
