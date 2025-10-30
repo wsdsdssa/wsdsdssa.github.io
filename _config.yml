@@ -85,8 +85,8 @@ content:
         caption: 2024.12 ~ 현재
         description: | # this will include new lines to allow paragraphs
           **단일 코드(Core Framework) 기반 멀티 브랜드 커머스 구축 및 운영 자동화 고도화**
-          - <a href="https://www.ovenlink.kr/" target="_blank">오븐링크(Ovenlink)</a> · **주문·배송/예약 특화 모듈 단독 개발** → 디저트 인플루언서 전용 커머스
-          - <a href="https://www.moremore.kr/" target="_blank">모아모아(MoreMore)</a> · **작가 콜라보 전시·판매 인터페이스 프론트 단독 개발**
+          - <a href="https://ovenlink.kr/" target="_blank">오븐링크(Ovenlink)</a> · **주문·배송/예약 특화 모듈 단독 개발** → 디저트 인플루언서 전용 커머스
+          - <a href="https://moremore.market/collaboration" target="_blank">모아모아(MoreMore)</a> · **작가 콜라보 전시·판매 인터페이스 프론트 단독 개발**
           - **관리자 대시보드** · 정산/주문/상품/리뷰/알림 등 **운영 전용 페이지 단독 구축**
           - **호스팅 운영 자동화** · GitHub Actions/버전태그에 의한 **무중단 배포 파이프라인** 정착
           - **SEO & 성능 최적화** · 라이트하우스·메타/OG 구조 정비 및 WebP/지연로딩 적용
@@ -105,8 +105,8 @@ content:
       - layout: left
         title: 오븐링크(Ovenlink) 개발
         sub_title: 2025.05 ~ 현재
-        caption: <a href="https://www.ovenlink.kr/" target="_blank" class="link">오븐링크 사이트</a>
-        link: https://www.ovenlink.kr/
+        caption: <a href="https://ovenlink.kr/" target="_blank" class="link">오븐링크 사이트</a>
+        link: https://ovenlink.kr/
         link_text: 디저트 인플루언서 커머스
         quote: >
           디저트 인플루언서를 위한 **예약·픽업·배송 특화** 커머스 플랫폼
@@ -121,8 +121,8 @@ content:
       - layout: left
         title: 모아모아(MoreMore) 개발
         sub_title: 2025.03 ~ 현재
-        caption: <a href="https://www.moremore.kr/" target="_blank" class="link">모아모아 사이트</a>
-        link: https://www.moremore.kr/
+        caption: <a href="https://moremore.market/collaboration" target="_blank" class="link">모아모아 사이트</a>
+        link: https://moremore.market/collaboration
         link_text: 작가 인플루언서 커머스
         quote: >
           **하나의 장바구니·개별 결제** 구조의 콜라보 마켓 인터페이스
