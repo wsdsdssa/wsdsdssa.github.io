@@ -65,7 +65,7 @@ content:
       - layout: left
         title: 오븐링크(Ovenlink) 개발
         sub_title: 2025.05 ~ 현재
-        caption: <a href="https://www.ovenlink.kr/" target="_blank" class="link" style="color:#FF9800;  font-weight: bold;"   >오븐링크 사이트</a>
+        caption: <a href="https://www.ovenlink.kr/" target="_blank" class="link" style="style="color:#FF9800; font-weight: bold;"   ">오븐링크 사이트</a>
         quote: >
           디저트 인플루언서를 위한 **예약·픽업·배송 특화** 커머스 플랫폼
 
@@ -77,7 +77,7 @@ content:
       - layout: left
         title: 모아모아(MoreMore) 개발
         sub_title: 2025.03 ~ 현재
-        caption: <a href="https://www.moremore.market/collaboration" target="_blank" class="link" style="color:#FF9800;  font-weight: bold;"   >모아모아 사이트</a>
+        caption: <a href="https://www.moremore.market/collaboration" target="_blank" class="link" style="style="color:#FF9800; font-weight: bold;"   ">모아모아 사이트</a>
         quote: >
           **하나의 장바구니·개별 결제** 구조의 작가 콜라보 플랫폼
 
@@ -89,7 +89,7 @@ content:
       - layout: left
         title: 메이더(Maderr) 호스팅 서비스 유지보수
         sub_title: 2024.12 ~ 현재
-        caption: <a href="https://www.maderr.com/" target="_blank" class="link" style="color:#FF9800;  font-weight: bold;"   >메이더 사이트</a>
+        caption: <a href="https://www.maderr.com/" target="_blank" class="link" style="style="color:#FF9800; font-weight: bold;"   ">메이더 사이트</a>
         quote: >
           **호스팅 운영 자동화 및 백오피스 고도화**
 
@@ -101,7 +101,7 @@ content:
       - layout: left
         title: 메이더 관리자 대시보드 단독 구축
         sub_title: 2024.12 ~ 현재
-        caption: <a href="https://www.maderr.com/" target="_blank" class="link" style="color:#FF9800;  font-weight: bold;"   >메이더 사이트</a>
+        caption: <a href="https://www.maderr.com/" target="_blank" class="link" style="style="color:#FF9800; font-weight: bold;"   ">메이더 사이트</a>
         quote: >
           단순한 통계 페이지를 넘어서, 실제 “운영팀과 입점사 간의 업무 효율”을 높이는 **운영형 백오피스 시스템**을 단독으로 설계하고 구현했습니다.
 
@@ -136,7 +136,7 @@ content:
         # title: WEB3 서비스를 연동 편의성을 위한 대시보드 개발
         title: 워크스페이스 개발
         sub_title: 2023.08 ~ 개발 및 유지보수
-        caption: <a href="https://workspace.wepin.io" target="_blank" class="link" style="color:#FF9800;  font-weight: bold;"   >워크스페이스 링크</a>
+        caption: <a href="https://workspace.wepin.io" target="_blank" class="link" style="style="color:#FF9800; font-weight: bold;"   ">워크스페이스 링크</a>
         link: https://www.wepin.io/ko/workspace
         link_text: 워크스페이스 가이드 링크
         description: | # this will include new lines to allow paragraphs
@@ -166,7 +166,7 @@ content:
         # title: NFT, 코인 에어드롭 마케팅 서비스
         title: NFT 허브링크, Coin 드롭링크 개발 및 유지보수
         sub_title: 2022.11 ~ 2023.01
-        caption: <a href="https://app.wepin.io/hublink/participate?promotionId=rhUNOfDxNx1&_gl=1*2qhz2e*_ga*MTkzNzk3NjU1MC4xNzA3NDQ5MjIz*_ga_WQXCJVJ7JR*MTcyNjEzODA3Ni43LjEuMTcyNjEzOTY1OC4xLjAuMA.." target="_blank" class="link" style="color:#FF9800;  font-weight: bold;"   >NFT 에어드롭</a>
+        caption: <a href="https://app.wepin.io/hublink/participate?promotionId=rhUNOfDxNx1&_gl=1*2qhz2e*_ga*MTkzNzk3NjU1MC4xNzA3NDQ5MjIz*_ga_WQXCJVJ7JR*MTcyNjEzODA3Ni43LjEuMTcyNjEzOTY1OC4xLjAuMA.." target="_blank" class="link" style="style="color:#FF9800; font-weight: bold;"   ">NFT 에어드롭</a>
         link: https://www.wepin.io/ko/droplink
         link_text: 에어드롭 마케팅 서비스 가이드 링크
         quote: >
@@ -188,7 +188,8 @@ content:
 
 
         description: | # this will include new lines to allow paragraphs
-          백엔드 개발자와 협업하여 개발 초기부터 리드로 진행 
+          - [💻 백엔드 개발자와 협업하여 개발 초기부터 리드로 진행 ](https://brick-wound-d32.notion.site/WEB3-Wepin-29c9a2e897f7804a8876f89493962ada)
+          
           - 대시보드 탭, NFT, 내 계정, 로그인 개발
           - firebase 를 통한 Provider 로그인 추가
           - naver, discode 등의 Oauth 추가
@@ -198,7 +199,7 @@ content:
       - layout: left
         title: 디센트
         sub_title: 2021.09 ~ 2022.07
-        caption: <a href="https://userguide.dcentwallet.com/v/kr/coin-send-receive/nft" target="_blank" class="link" style="color:#FF9800;  font-weight: bold;"   >디센트 가이드</a>
+        caption: <a href="https://userguide.dcentwallet.com/v/kr/coin-send-receive/nft" target="_blank" class="link" style="style="color:#FF9800; font-weight: bold;"   ">디센트 가이드</a>
         link: https://play.google.com/store/apps/details?id=com.kr.iotrust.dcent.wallet&pcampaignid=web_share
         link_text: 디센트 앱 링크
         quote: >
