@@ -181,8 +181,7 @@ content:
         # title: WEB3 지갑
         title: WEB3 Wepin 지갑 개발 및 유지보수
         sub_title: 2022.08 ~ 개발 및 유지보수
-        link: https://app.wepin.io
-        link_text: WEB3 지갑 링크
+        caption: '<a href="https://app.wepin.io" target="_blank" class="link" style="color:#FF9800; font-weight: bold;">WEB3 지갑 링크</a>'
         quote: >
           다양한 네트워크와 다양한 외부 서비스들의 에어드롭, 자산을 보유할수 있는 WEB3 지갑 서비스
 
