@@ -84,20 +84,25 @@ content:
         sub_title: 프론트엔드/백엔드 개발자
         caption: 2024.12 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          **단일 코드(Core Framework) 기반 멀티 브랜드 커머스 구축 및 운영 자동화 고도화**
-          - <a href="https://ovenlink.kr/" target="_blank">오븐링크(Ovenlink)</a> · **주문·배송/예약 특화 모듈 단독 개발** → 디저트 인플루언서 전용 커머스
-          - <a href="https://moremore.market/collaboration" target="_blank">모아모아(MoreMore)</a> · **작가 콜라보 전시·판매 인터페이스 프론트 단독 개발**
-          - **관리자 대시보드** · 정산/주문/상품/리뷰/알림 등 **운영 전용 페이지 단독 구축**
-          - **호스팅 운영 자동화** · GitHub Actions/버전태그에 의한 **무중단 배포 파이프라인** 정착
-          - **SEO & 성능 최적화** · 라이트하우스·메타/OG 구조 정비 및 WebP/지연로딩 적용
-          - **컴포넌트 단위 테스트 도입** · 핵심 컴포넌트 안정성 확보(회귀 이슈 30%↓)
-          
+          **단일 코드(Core Framework) 기반 멀티 브랜드 커머스 구축 및 자동화 고도화**
+
+          - [🍞 오븐링크(Ovenlink) — 주문·배송 관리 모듈 단독 개발 및 구축](https://www.notion.so/Ovenlink-29c9a2e897f7803dbcfafdc7d5f14f75?pvs=21)<br/>
+            → 디저트 인플루언서 전용 예약·픽업 커머스, 관리자용 배송 관리 시스템 구축  
+          - [🎨 모아모아(MoreMoreMarket) — 그림·문구 작가 전용 콜라보 커머스 플랫폼](https://www.notion.so/MoreMoreMarket-29c9a2e897f780dea2d3f2fcff41ec67?pvs=21)<br/>
+            → 공동 장바구니·개별 결제 구조 설계, 작가 콜라보 마켓 시스템 단독 개발  
+          - [💻 메이더(Maderr) 호스팅 서비스 유지보수 및 자동 배포 구축](https://www.notion.so/Maderr-Hosting-cdd984855b7f42168388c3bbf501b854?pvs=21)<br/>
+            → Functions 기반 서버리스 API, 버전 태그 자동 배포 파이프라인 완성  
+          - [🧩 프론트엔드 개발 환경 최적화 및 품질 개선 주도](https://www.notion.so/29c9a2e897f7808f98d9fe3e3f7cd5e0?pvs=21)<br/>
+            → Cursor AI 도입 / Atomic UI 패키지화 / GitHub Actions 자동 배포 완성  
+
           **성과**
-          - 신규 하위 브랜드 구축 리드타임 **2개월 → 2주 단축**(단일 코드 아키텍처)
-          - 관리자 주요 목록/상세 로딩 **최대 40% 단축**, 배포 시간 **8분 → 3분**
+          - 신규 브랜드 런칭 기간 **2개월 → 2주 단축**
+          - 코드 재사용률 **60%↑**, 수동 배포 0건
           - 이미지 전송량 **70% 절감**, LCP 2.5s 달성
-          
-          스킬: Vue 3, Nuxt 3, TypeScript, Firebase (Auth/Firestore/Functions/Storage), Cloud Run, Node.js, TailwindCSS, GitHub Actions, SEO Optimization
+          - 운영 로드/장애 대응 속도 **40% 개선**
+
+          **기술 스택:** Vue 3, Nuxt 3, TypeScript, Firebase (Auth/Firestore/Functions/Storage), Cloud Run, Node.js, TailwindCSS, GitHub Actions, Cursor AI, SEO Optimization
+
 
   - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트</b>
     layout: list
@@ -105,60 +110,57 @@ content:
       - layout: left
         title: 오븐링크(Ovenlink) 개발
         sub_title: 2025.05 ~ 현재
-        caption: <a href="https://ovenlink.kr/" target="_blank" class="link">오븐링크 사이트</a>
-        link: https://ovenlink.kr/
-        link_text: 디저트 인플루언서 커머스
+        caption: <a href="https://www.ovenlink.kr/" target="_blank" class="link">오븐링크 사이트</a>
+        link: https://www.notion.so/Ovenlink-29c9a2e897f7803dbcfafdc7d5f14f75?pvs=21
+        link_text: 노션 프로젝트 상세 보기
         quote: >
           디저트 인플루언서를 위한 **예약·픽업·배송 특화** 커머스 플랫폼
-        description: | # this will include new lines to allow paragraphs
-          **프론트/백엔드 풀스택 단독 개발 (Firebase 기반)**
-          - 픽업 스케줄·재고·주문 상태(REQUESTED/CONFIRMED/READY/PICKED) **자동 동기화**
-          - 주문/운송장/정산 프로세스 UI/UX 설계, 반응형 최적화
-          - Functions 기반 결제/주문 트랜잭션, 실패 복구 로직, 알림 훅 구성
-          - **성과:** 주문 처리 효율 **2배**, 관리자 페이지 체감 로딩 **~40% 단축**, Lighthouse **90+**
-          - 기술 스택: Vue 3, Nuxt 3, TypeScript, Firebase (Auth/Firestore/Functions), Node.js, TailwindCSS
+        description: |
+          - Firebase 기반 **프론트/백엔드 풀스택 단독 개발**
+          - 픽업 스케줄·재고·주문 상태 자동 동기화
+          - Functions 기반 결제·정산 트랜잭션 구현
+          - 반응형 UI/UX 개선 및 SEO 구조 정비  
+          - **성과:** 주문 처리 효율 2배, 관리자 로딩 속도 40% 단축, Lighthouse 90+ 달성  
 
       - layout: left
         title: 모아모아(MoreMore) 개발
         sub_title: 2025.03 ~ 현재
-        caption: <a href="https://moremore.market/collaboration" target="_blank" class="link">모아모아 사이트</a>
-        link: https://moremore.market/collaboration
-        link_text: 작가 인플루언서 커머스
+        caption: <a href="https://www.moremore.market/collaboration" target="_blank" class="link">모아모아 사이트</a>
+        link: https://www.notion.so/MoreMoreMarket-29c9a2e897f780dea2d3f2fcff41ec67?pvs=21
+        link_text: 노션 프로젝트 상세 보기
         quote: >
-          **하나의 장바구니·개별 결제** 구조의 콜라보 마켓 인터페이스
-        description: | # this will include new lines to allow paragraphs
-          - 협업(콜라보) 생성/참여/운영 화면, 참여 작가 프로필 노출, 태그 기반 탐색
-          - 여러 작가 상품을 **한 장바구니**에서 관리하고 결제는 **각 원스토어로 분산 이동**
-          - 모바일/웹 **4→3→2 컬럼 반응형 그리드**, 이미지 최적화·지연 로딩
-          - **성과:** 신규 플랫폼 구축 리드타임 **2개월 → 2주**, 공동 판매/노출 지표 **상승**
-          - 기술 스택: Vue 3, Nuxt 3, TypeScript, Firebase, TailwindCSS
+          **하나의 장바구니·개별 결제** 구조의 작가 콜라보 플랫폼
+        description: |
+          - 협업(콜라보) 생성/참여/운영 인터페이스 단독 개발  
+          - 여러 작가 상품을 하나의 장바구니로 관리, 결제 시 각자 쇼핑몰로 분산 이동  
+          - 모바일/웹 4→3→2 컬럼 반응형 그리드 및 WebP 최적화  
+          - **성과:** 구축 리드타임 2개월 → 2주, 작가 공동 판매율 +40%  
 
       - layout: left
         title: 메이더(Maderr) 호스팅 서비스 유지보수
         sub_title: 2024.12 ~ 현재
-        link: https://www.maderr.com/
-        link_text: 메이더 호스팅 사이트
+        link: https://www.notion.so/Maderr-Hosting-cdd984855b7f42168388c3bbf501b854?pvs=21
+        link_text: 노션 프로젝트 상세 보기
         quote: >
-          단일 코드(Core) 기반 **멀티 브랜드 호스팅** 운영
-        description: | # this will include new lines to allow paragraphs
-          - 상품/주문/리뷰/정산/알림 등 운영 도메인 **리팩토링·성능 최적화**
-          - REST API 구조 정비·캐싱 전략·감시 지표(Logging/Tracing) 개선
-          - **성과:** 운영 이슈 회귀 **30%↓**, 이미지/Web Vitals 최적화로 체감 속도 **개선**
-          - 기술 스택: Vue 3, Nuxt 3, TypeScript, Node.js, Firebase, Cloud Run, TailwindCSS
+          **호스팅 운영 자동화 및 백오피스 고도화**
+        description: |
+          - 상품/주문/리뷰/정산 등 도메인별 기능 리팩토링 및 성능 개선  
+          - 버전 태그 기반 자동 배포 시스템 구축  
+          - Cloud Run + Firestore 최적화로 운영 안정성 강화  
 
       - layout: left
-        title: 커머스 관리 대시보드 개발
-        sub_title: 2024.12 ~ 현재
-        caption: 단독 개발 프로젝트
-        link: https://www.maderr.com/
-        link_text: 메이더 호스팅 사이트
+        title: 프론트엔드 개발 환경 최적화 및 품질 개선
+        sub_title: 2025.02 ~ 현재
+        link: https://www.notion.so/29c9a2e897f7808f98d9fe3e3f7cd5e0?pvs=21
+        link_text: 노션 프로젝트 상세 보기
         quote: >
-          **정산/주문/상품/리뷰/알림** 전용 **운영 대시보드** 단독 구축
-        description: | # this will include new lines to allow paragraphs
-          - 실시간 현황판(주문/재고/클릭/전환) 및 상세 워크플로우 설계
-          - Firestore 실시간 동기화 + Functions 서버리스 API, 역할권한/로그 감사
-          - **성과:** 운영자 작업시간 **감소**(반복조회 자동화, 배치 알림), 장애 대응 **가시성↑**
-          - 기술 스택: Vue 3, TypeScript, Firebase (Firestore/Functions), Node.js, TailwindCSS
+          개발 효율성과 품질을 동시에 개선한 내부 기술 혁신 프로젝트
+        description: |
+          - Cursor AI 코드 리뷰 및 리팩토링 자동화  
+          - Atomic 단위 UI 컴포넌트 공통 패키지화 (`@hititsoft/ui`)  
+          - GitHub Actions 기반 CI/CD 완전 자동화  
+          - 폰트 로컬화 + CDN 제거 → 로드 속도 60% 개선  
+
 
   - title: <b style="color:#4CAF50;">PROJECTS - 아이오트러스트 (블록체인)</b> # Title for the section
     layout: list # Type of content section (list/text)
