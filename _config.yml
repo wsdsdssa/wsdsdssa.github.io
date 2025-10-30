@@ -61,9 +61,9 @@ about_content: | # this will include new lines to allow paragraphs
   현재 상용중인 사이트:
   <br/>
   <h3>메이더</h3>
-   - [호스팅 홈페이지 링크](https://www.maderr.com/)
-   - [디저트 인플루언서 커머스 사이트 모음](https://ovenlink.kr/)
-   - [작가 인플루언서 커머스 사이트 모음](https://moremore.market/collaboration)
+   - [메이더 홈페이지 링크](https://www.maderr.com/)
+   - [오븐링크](https://ovenlink.kr/)
+   - [모아모아](https://moremore.market/collaboration)
    <br/>
   <h3>아이오트러스트</h3> <br/>
    - [파트너 회사용 대시보드 링크](https://workspace.wepin.io/login)
@@ -84,10 +84,11 @@ content:
         sub_title: 프론트엔드/백엔드 개발자
         caption: 2024.12 ~ 현재
         description: |
-          - ovenlink.kr 주문·배송 관리 모듈 단독 개발 및 구축 → 디저트 인플루언서 전용 커머스 인터페이스
-          - moremore.kr 프론트엔드 단독 개발 → 작가 인플루언서 전용 커머스 인터페이스
+          - 메이더(Maderr) 호스팅 서비스 유지보수
           - 관리자 대시보드 페이지 단독 구축
-          - 호스팅 서비스 사이트 유지보수 및 신규 기능 기획/배포 자동화 구축
+          - 오븐링크(Ovenlink) 빵집 이커머스 플랫폼 형식 개발
+          - 호스팅 서비스 쇼핑몰 개발
+          - 프론트엔드 개발 환경 최적화 및 품질 개선
           - SEO 구조 개선 및 Lighthouse 최적화 → 검색 노출 향상
           - component 단위 테스트 주도 적용
 
@@ -270,7 +271,17 @@ content:
 
         description: | # this will include new lines to allow paragraphs
           - 스텍스 네트워크 스택킹 개발
-
+  - title: <b style="color:#4CAF50;">PROJECTS - 언라이크 - 웹 에이전시 2020.05 ~ 2021.02</b> # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 디자인 컴포넌트 개발
+        description: | # this will include new lines to allow paragraphs
+            웹 에이전시 (총 인원 4, 개발팀 3명)
+          - 돌돌 물류배송 회사 메인 페이지
+          - 송영데이 고객 픽업 체크 서비스
+          - 프리랜서 매칭 서비스
+          
   - title: # Title for the section
     layout: list # Type of content section (list/text)
     content:
