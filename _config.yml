@@ -73,56 +73,7 @@ about_content: | # this will include new lines to allow paragraphs
    - [에어드롭 이벤트 서비스 가이드 링크](https://www.wepin.io/ko/droplink)
    - [SDK 위젯 가이드 링크](https://docs.wepin.io)
 
-content:
-  - title: <b style="color:#FF9800;">Experience</b>
-    layout: list
-    content:
-      - layout: left
-        title: 히릿소프트 - 호스팅 서비스
-        link: https://www.maderr.com/
-        link_text: 호스팅 홈페이지 링크
-        sub_title: 프론트엔드/백엔드 개발자
-        caption: 2024.12 ~ 현재
-        description: |
-          - 메이더(Maderr) 호스팅 서비스 유지보수
-          - 관리자 대시보드 페이지 단독 구축
-          - 오븐링크(Ovenlink) 빵집 이커머스 플랫폼 형식 개발
-          - 호스팅 서비스 쇼핑몰 개발
-          - 프론트엔드 개발 환경 최적화 및 품질 개선
-          - SEO 구조 개선 및 Lighthouse 최적화 → 검색 노출 향상
-          - component 단위 테스트 주도 적용
-
-          스킬: Vue 3, Nuxt, TypeScript, Firebase, Cloud Run, Node.js, TailwindCSS, SEO Optimization
-
-      - layout: left
-        title: IOTRUST - 블록체인 하드웨어/소프트웨어 스타트업
-        link: https://career.iotrust.kr/
-        link_text: iotrust 회사 소개 링크
-        sub_title: 프론트엔드 개발자
-        caption: 2021.07 ~ 2024.09.30
-        description: |
-          블록체인 하드웨어/소프트웨어 스타트업 (총 인원 38~45, 개발팀 18~20명)
-          - 기업용 지갑 Workspace UI 프레임워크 설계 및 성능 최적화 프론트엔드 개발
-          - 자바스크립트 SDK 개발 → 외부 dApp 연동 환경 제공 / 프론트엔드 개발
-          - WEB3 지갑 기업용 Wockspace 프론트엔드 개발
-          - 콜드월렛 Stacks 네트워크 스테이킹 서비스 (하이브리드 웹뷰)
-          - 하이브리드 앱 환경에서 스테이킹·NFT 기능 통합
-          - 개발팀 내 코드베이스 표준화 주도 (ESLint / CI 자동화 적용)
-          - UI 테스트 툴 Chromatic 주도 적용
-
-          Vue2 ~ 3, React, TypeScript, Node.js, Web3.js, Storybook, Chromatic, Hybrid WebView, GitHub Actions
-
-      - layout: left
-        title: 언라이크 - 웹 에이전시
-        sub_title: 프론트엔드 개발자
-        caption: 2020.05 ~ 2021.02
-        description: |
-          웹 에이전시 (총 인원 4, 개발팀 3명)
-          - 돌돌 물류배송 회사 메인 페이지
-          - 송영데이 고객 픽업 체크 서비스
-          - 프리랜서 매칭 서비스
-
-  - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트</b>
+  - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트 (2024.12 ~ 현재)</b>
     layout: list
     content:
       - layout: left
@@ -172,7 +123,7 @@ content:
           - [🧩 프론트엔드 개발 환경 최적화 및 품질 개선 주도](https://www.notion.so/29c9a2e897f7808f98d9fe3e3f7cd5e0?pvs=21)<br/>
           → Cursor AI 도입 / Atomic UI 패키지화 / GitHub Actions 자동 배포 완성
 
-  - title: <b style="color:#4CAF50;">PROJECTS - 아이오트러스트 (블록체인)</b> # Title for the section
+  - title: <b style="color:#4CAF50;">PROJECTS - 아이오트러스트 (블록체인) 2021.07 ~ 2024.09.30</b> # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
