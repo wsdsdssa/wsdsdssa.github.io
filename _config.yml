@@ -52,7 +52,8 @@ about_content: | # this will include new lines to allow paragraphs
   퍼블리싱의 정밀함과 구조 설계를 같이 챙기는 개발자가 되고 싶었습니다. NFT 조회 문제를 UX 흐름으로 푼 것도, 3개 브랜드를 단일 코드로 운영한 것도 결국 '어떻게 짜야 나중에 안 무너지나'를 먼저 생각한 결과였습니다.<br/>
 
   요즘은 AI가 개발 방식 자체를 바꾸고 있다고 느낍니다. 3~4년 전에는 AI가 변수명도, CSS 클래스명도 엉망으로 짜던 수준이었는데, MCP와 커스텀 스킬을 실무와 사이드 프로젝트에 직접 적용해보면서 지금은 완전히 다른 도구가 됐다는 걸 체감하고 있습니다.<br/>
-  현재 AI 바이브 코딩 방식으로 음성 대화 영어 튜터 앱 '온달톡'을 Flutter + NestJS로 1인 개발 중입니다. Claude로 플랜을 잡고, Codex로 코드를 뽑고, GStack의 plan-ceo-review로 초기 아이디어를 검증하고 plan-eng-review로 구현 방향을 정리합니다. 세부 기능 단위에서는 Ouroboros ooo interview로 기획을 구체화하고, 최근엔 Grill Me로 놓친 설계 포인트를 미리 짚어내는 방식을 쓰고 있습니다.<br/>
+  AI 도구는 Claude, Codex, Cursor를 함께 사용합니다. Cursor를 메인 IDE로 쓰는 이유는 MCP 연동 최적화가 다른 IDE 대비 가장 잘 되어 있어서입니다. MCP는 Figma, Notion, Ouroboros, Jira를 연결해두고 그중 Figma(디자인 스펙 동기화)와 Ouroboros(기획 인터뷰/리뷰)를 가장 자주 사용합니다.<br/>
+  현재 AI 바이브 코딩 방식으로 음성 대화 영어 튜터 앱 '온달톡'을 Flutter + NestJS로 1인 개발 중입니다. Claude로 플랜을 잡고, Codex로 코드를 뽑고, GStack의 plan-eng-review로 구현 방향을 검토·정리합니다. 세부 기능 단위에서는 Ouroboros interview로 기획을 구체화하고, Grill Me로 놓친 설계 포인트를 미리 짚어내며, Codex 외부 스피커로 진행 상황을 공유하는 방식을 쓰고 있습니다.<br/>
   단순히 코드를 받아쓰는 게 아닙니다. AI가 낸 결과를 직접 리뷰하고 검증하면서, 아키텍처와 품질은 제가 책임지는 방식입니다. 전체 흐름을 놓치는 AI에게 흐름을 잡아주고, 코드 리뷰로 품질을 걸러내는 개발자가 앞으로 훨씬 더 중요해질 거라 생각합니다. 기획력, 프롬프트 설계, 코드 리뷰 — 이 세 가지가 결국 AI 시대 개발자의 핵심 역량이라고 믿고, 그 방향으로 계속 체득해가고 있습니다.<br/>
 
   skilled: <mark>TypeScript, Node.js Vue 2, Vue 3, Nuxt, React, Vuex, Jest, Pinia, HTML5, CSS3, TailwindCSS, Figma, git, github, Sourcetree</mark>
@@ -71,6 +72,8 @@ content:
         description: |
           - 기존 Java 11 / Vue 레거시 서비스 유지보수
           - Next.js + Supabase(DB/Auth) + Vercel 배포 조합으로 신규 서비스 풀스택 아키텍처 설계 및 구축
+          - 솔라피(Solapi) 연동으로 알림톡 템플릿 작업, 사용자의 특정 행위(신청·접수 등) 발생 시 자동 알림톡 발송 처리 구현
+          - **기술:** Java 11, Vue, Next.js, Supabase, Vercel, Solapi
 
   - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트 (2024.12 ~ 2026.02)</b>
     layout: list
@@ -86,6 +89,7 @@ content:
         description: |
           - [🍞 오븐링크(Ovenlink) — 주문·배송 관리 모듈 단독 개발 및 구축](https://brick-wound-d32.notion.site/Ovenlink-29c9a2e897f7803dbcfafdc7d5f14f75)<br/>
           → 디저트 인플루언서 전용 예약·픽업 커머스, 관리자용 배송 관리 시스템 구축
+          - **기술:** Vue, Firebase Functions, GCP, 사방넷 연동 API
 
       - layout: left
         title: 모아모아(MoreMore) 개발
@@ -98,6 +102,7 @@ content:
         description: |
           - [🎨 모아모아(MoreMoreMarket) — 그림·문구 작가 전용 콜라보 커머스 플랫폼](https://brick-wound-d32.notion.site/MoreMoreMarket-29c9a2e897f780dea2d3f2fcff41ec67)<br/>
           → 공동 장바구니·개별 결제 구조 설계, 작가 콜라보 마켓 시스템 단독 개발
+          - **기술:** Vue, Firebase, GCP, 사방넷 연동 API
 
       - layout: left
         title: 메이더(Maderr) 호스팅 서비스 유지보수
@@ -110,6 +115,7 @@ content:
         description: |
           - [💻 메이더(Maderr) 호스팅 서비스 유지보수 및 자동 배포 구축](https://brick-wound-d32.notion.site/Maderr-Hosting-cdd984855b7f42168388c3bbf501b854)<br/>
           → Functions 기반 서버리스 API, 버전 태그 자동 배포 파이프라인 완성
+          - **기술:** Firebase Functions, GCP, GitHub Actions
 
       - layout: left
         title: 메이더 관리자 대시보드 단독 구축
@@ -122,6 +128,7 @@ content:
         description: |
           - [📓 메이더 관리자 대시보드](https://brick-wound-d32.notion.site/b9f84e08cf6348e389613a35a40f180a)<br/>
           → 디저트 인플루언서 전용 예약·픽업 커머스, 관리자용 배송 관리 시스템 구축
+          - **기술:** Vue, Firebase
 
       - layout: left
         title: 선착순 판매 오버셀 방지 구조 개선
@@ -135,6 +142,7 @@ content:
           - 결제 확정 로직을 분리하고 Firebase 트랜잭션으로 가상 주문번호를 배열 형태로 선발급해 순서 고정
           - 기존 배치 함수는 대량 처리 병목 방지를 위해 유지하되, 가상 주문번호 순서대로 배치에 적재하고 실패 건은 다음 배치로 재시도
           - 취소/오결제 발생 시 해당 가상 주문번호를 폐기하고 다음 대기자에게 승계하는 구조로 오버셀 제거 및 인원 제한 정확도 확보
+          - **기술:** Firebase Transaction, Firebase Functions(Batch), Firestore
 
       - layout: left
         title: 프론트엔드 개발 환경 최적화 및 품질 개선
@@ -146,6 +154,7 @@ content:
         description: |
           - [🧩 프론트엔드 개발 환경 최적화 및 품질 개선 주도](https://brick-wound-d32.notion.site/29c9a2e897f7808f98d9fe3e3f7cd5e0)<br/>
           → Cursor AI 도입 / Atomic UI 패키지화 / GitHub Actions 자동 배포 완성
+          - **기술:** Cursor AI, Atomic UI, GitHub Actions
 
   - title: <b style="color:#4CAF50;">PROJECTS - 아이오트러스트 (블록체인) 2021.07 ~ 2024.09.30</b> # Title for the section
     layout: list # Type of content section (list/text)
@@ -170,6 +179,7 @@ content:
           - 대시보드, 네트워크 탭 프론트 개발
           - 연동되는 앱 테마별 구현
           - NFT, Coin 등 자산 버츄얼 스크롤 적용으로 로딩 속도 향상
+          - **기술:** Vue, Virtual Scroll
 
       - layout: left
         # title: 외부 기업 연동 위젯 SDK
@@ -188,6 +198,7 @@ content:
           - 네트워크마다 NFT 컨트랙트별로 IPFS URL이 제각각이라 게이트웨이를 단일화할 수 없는 구조 → 개별 NFT의 IPFS URL 수신 상태(신호/응답)를 체크하는 헬스체크 로직 구현, 끊김/무응답 감지 시 동일 메타데이터의 다른 게이트웨이 URL로 즉시 fallback 처리
           - 인덱싱 DB의 조회 API 커버리지가 적어 소유권 확정을 DB만으로 신뢰할 수 없는 문제 → 온체인에서 NFT 메타데이터 트랜잭션이 실제로 전송됐는지 직접 조회하는 방식으로 소유권 오판 방지
           - Jest 단위 테스트, 시나리오 테스트 작업
+          - **기술:** TypeScript, Jest, IPFS Gateway, Web3 SDK
       - layout: left
         # title: NFT, 코인 에어드롭 마케팅 서비스
         title: NFT 허브링크, Coin 드롭링크 개발 및 유지보수
@@ -204,6 +215,7 @@ content:
           - 지갑이 없는 사용자도 참여 가능하도록 이메일 기반으로 블록체인 지갑을 자동 생성하고, 생성된 지갑에 NFT/코인을 활성화·전송하는 트랜잭션 플로우 개발
           - NFT 에어드롭 플로우 개발
           - Coin 에어드롭 플로우 개발
+          - **기술:** Node.js, 이메일 인증, 블록체인 지갑 생성 API
 
       - layout: left
         # title: WEB3 지갑
@@ -221,6 +233,7 @@ content:
           - firebase 를 통한 Provider 로그인 추가
           - naver, discode 등의 Oauth 추가
           - 내 계정, NFT Layout 설정 개발
+          - **기술:** Vue, Firebase Auth, OAuth(Naver/Discord)
 
       - layout: left
         title: 디센트
@@ -237,6 +250,7 @@ content:
           - NFT IPFS GateWay 적용으로 NFT 보여주는 시간 개선
           - Swap, Exchange 전환 로딩 시간을 줄이기 위해 디자인 수정 
           - NFT 로딩 대기시간을 줄이기 위해 스캠(스팸NFT) 숨김 API 적용
+          - **기술:** IPFS Gateway, 스팸 필터링 API
       - layout: left
         title: 디센트 스택스 스택킹
         sub_title: 2021.07 ~ 2021.11
@@ -249,6 +263,7 @@ content:
           - Stacks 네트워크는 정책상 10만 STX 이상 보유자만 직접 스테이킹 가능 → 소액 보유자가 외부 스테이킹 풀에 위임(delegate)하는 방식으로 참여할 수 있도록 지원
           - 풀마다 공식 개발자 문서가 없어 직접 컨택해 lock/delegate 트랜잭션 스펙을 확인 후 연동
           - 위임은 단순 전송이 아닌 lock + delegate 트랜잭션이며, 풀에 따라 보상 자산이 BTC/STX로 갈리는 차이가 있어 사용자가 오인하지 않도록 UX·안내 문구 설계
+          - **기술:** Stacks 블록체인 트랜잭션(Lock/Delegate)
   - title: <b style="color:#4CAF50;">PROJECTS - 언라이크 - 웹 에이전시 2020.05 ~ 2021.02</b> # Title for the section
     layout: list # Type of content section (list/text)
     content:
