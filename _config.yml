@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 안녕하세요, 프론트엔드 개발자 박태현입니다.
-title: 5년차 front-end developer
+title: 6년차 front-end developer
 email: wsdsdssa@gmail.com
 # website: www.github.com/sproogen/resume-theme
 
@@ -48,7 +48,7 @@ darkmode: false
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  5년 반 동안 블록체인 지갑, 멀티테넌트 커머스, 호스팅 플랫폼을 거치며 공통적으로 해온 일이 하나 있습니다. 혼자 맡아도 무너지지 않는 구조를 짜는 것입니다. 팀이 있어도 결국 내가 책임지는 영역이 생기고, 그 영역에서 기획부터 배포까지 끝을 본 경험이 지금의 저를 만들었습니다.<br/>
+  6년 동안 블록체인 지갑, 멀티테넌트 커머스, 호스팅 플랫폼을 거치며 공통적으로 해온 일이 하나 있습니다. 혼자 맡아도 무너지지 않는 구조를 짜는 것입니다. 팀이 있어도 결국 내가 책임지는 영역이 생기고, 그 영역에서 기획부터 배포까지 끝을 본 경험이 지금의 저를 만들었습니다.<br/>
   퍼블리싱의 정밀함과 구조 설계를 같이 챙기는 개발자가 되고 싶었습니다. NFT 조회 문제를 UX 흐름으로 푼 것도, 3개 브랜드를 단일 코드로 운영한 것도 결국 '어떻게 짜야 나중에 안 무너지나'를 먼저 생각한 결과였습니다.<br/>
 
   요즘은 AI가 개발 방식 자체를 바꾸고 있다고 느낍니다. 3~4년 전에는 AI가 변수명도, CSS 클래스명도 엉망으로 짜던 수준이었는데, MCP와 커스텀 스킬을 실무와 사이드 프로젝트에 직접 적용해보면서 지금은 완전히 다른 도구가 됐다는 걸 체감하고 있습니다.<br/>
@@ -58,7 +58,21 @@ about_content: | # this will include new lines to allow paragraphs
   skilled: <mark>TypeScript, Node.js Vue 2, Vue 3, Nuxt, React, Vuex, Jest, Pinia, HTML5, CSS3, TailwindCSS, Figma, git, github, Sourcetree</mark>
 
 content:
-  - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트 (2024.12 ~ 현재)</b>
+  - title: <b style="color:#9C27B0;">PROJECTS - 어드민랩 (2026.03 ~ 현재)</b>
+    layout: list
+    content:
+      - layout: left
+        title: 중고폰·휴대폰 보험 신규 서비스 개발
+        sub_title: 2026.03 ~ 현재 (진행 중)
+        quote: >
+          KT 협력사로 중고폰 매입·판매 및 휴대폰 보험 서비스를 제공하는 회사에서, 기존 Java 11 + Vue 레거시 서비스 유지보수와 동시에 Next.js 기반 신규 서비스를 병행 개발
+
+
+        description: |
+          - 기존 Java 11 / Vue 레거시 서비스 유지보수
+          - Next.js + Supabase(DB/Auth) + Vercel 배포 조합으로 신규 서비스 풀스택 아키텍처 설계 및 구축
+
+  - title: <b style="color:#2196F3;">PROJECTS - 히릿소프트 (2024.12 ~ 2026.02)</b>
     layout: list
     content:
       - layout: left
@@ -110,6 +124,19 @@ content:
           → 디저트 인플루언서 전용 예약·픽업 커머스, 관리자용 배송 관리 시스템 구축
 
       - layout: left
+        title: 선착순 판매 오버셀 방지 구조 개선
+        sub_title: 오븐링크 / 모아모아 / 메이더 공통
+        quote: >
+          Firebase + GCP 기반으로 동일 레이아웃의 멀티 쇼핑몰을 운영하며, 사방넷 연동으로 상품을 동기화 노출하고 재고·예약·선착순판매·랭킹을 백오피스에서 통합 관리
+
+
+        description: |
+          - 선착순 판매 시 동시 결제 요청이 몰리면 기존 Firebase 배치(batch) 결제 확정 로직이 순서를 보장하지 못해 인원 제한(예: 100명)을 초과하는 오버셀 위험 발생
+          - 결제 확정 로직을 분리하고 Firebase 트랜잭션으로 가상 주문번호를 배열 형태로 선발급해 순서 고정
+          - 기존 배치 함수는 대량 처리 병목 방지를 위해 유지하되, 가상 주문번호 순서대로 배치에 적재하고 실패 건은 다음 배치로 재시도
+          - 취소/오결제 발생 시 해당 가상 주문번호를 폐기하고 다음 대기자에게 승계하는 구조로 오버셀 제거 및 인원 제한 정확도 확보
+
+      - layout: left
         title: 프론트엔드 개발 환경 최적화 및 품질 개선
         sub_title: 2025.02 ~ 현재
         quote: >
@@ -139,9 +166,8 @@ content:
         link: https://www.wepin.io/ko/workspace
         link_text: 워크스페이스 가이드 링크
         description: | # this will include new lines to allow paragraphs
-          프론트 엔드 3명, 백엔드 개발자와 협업으로 개발 초기 단계부터 시작 
-          - 대시보드, 네트워크 탭 프론트 개발 
-          - 사용자 통계 그래프를 위해 Graph QL 적용 
+          프론트 엔드 3명, 백엔드 개발자와 협업으로 개발 초기 단계부터 시작
+          - 대시보드, 네트워크 탭 프론트 개발
           - 연동되는 앱 테마별 구현
           - NFT, Coin 등 자산 버츄얼 스크롤 적용으로 로딩 속도 향상
 
@@ -159,7 +185,8 @@ content:
           IOS, 안드로이드, 백엔드, 블록체인 개발자와 협업 위젯의 UI/UX 및 기능을 위주로 작업
           - 메인 페이지, NFT, Coin 보내기 및 테마 적용 개발
           - 메인 페이지에 보여주는 NFT, Coin API 요청을 분리하여 로딩속도 향상
-          - NFT IPFS GateWay 적용으로 NFT 보여주는 시간 개선
+          - 네트워크마다 NFT 컨트랙트별로 IPFS URL이 제각각이라 게이트웨이를 단일화할 수 없는 구조 → 개별 NFT의 IPFS URL 수신 상태(신호/응답)를 체크하는 헬스체크 로직 구현, 끊김/무응답 감지 시 동일 메타데이터의 다른 게이트웨이 URL로 즉시 fallback 처리
+          - 인덱싱 DB의 조회 API 커버리지가 적어 소유권 확정을 DB만으로 신뢰할 수 없는 문제 → 온체인에서 NFT 메타데이터 트랜잭션이 실제로 전송됐는지 직접 조회하는 방식으로 소유권 오판 방지
           - Jest 단위 테스트, 시나리오 테스트 작업
       - layout: left
         # title: NFT, 코인 에어드롭 마케팅 서비스
@@ -173,6 +200,8 @@ content:
 
 
         description: | # this will include new lines to allow paragraphs
+          - URL의 추천인코드/프로모션 코드를 파싱해 캠페인 식별
+          - 지갑이 없는 사용자도 참여 가능하도록 이메일 기반으로 블록체인 지갑을 자동 생성하고, 생성된 지갑에 NFT/코인을 활성화·전송하는 트랜잭션 플로우 개발
           - NFT 에어드롭 플로우 개발
           - Coin 에어드롭 플로우 개발
 
@@ -192,7 +221,6 @@ content:
           - firebase 를 통한 Provider 로그인 추가
           - naver, discode 등의 Oauth 추가
           - 내 계정, NFT Layout 설정 개발
-          - 대시보드 탭에서 요청하는 API 대기 시간을 줄이기 위해 미들웨어 생성
 
       - layout: left
         title: 디센트
@@ -218,7 +246,9 @@ content:
 
 
         description: | # this will include new lines to allow paragraphs
-          - 스텍스 네트워크 스택킹 개발
+          - Stacks 네트워크는 정책상 10만 STX 이상 보유자만 직접 스테이킹 가능 → 소액 보유자가 외부 스테이킹 풀에 위임(delegate)하는 방식으로 참여할 수 있도록 지원
+          - 풀마다 공식 개발자 문서가 없어 직접 컨택해 lock/delegate 트랜잭션 스펙을 확인 후 연동
+          - 위임은 단순 전송이 아닌 lock + delegate 트랜잭션이며, 풀에 따라 보상 자산이 BTC/STX로 갈리는 차이가 있어 사용자가 오인하지 않도록 UX·안내 문구 설계
   - title: <b style="color:#4CAF50;">PROJECTS - 언라이크 - 웹 에이전시 2020.05 ~ 2021.02</b> # Title for the section
     layout: list # Type of content section (list/text)
     content:
